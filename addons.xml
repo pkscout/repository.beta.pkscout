@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="script.artistslideshow" name="Artist Slideshow" version="1.6.6~beta7" provider-name="ronie|pkscuot">
+<addon id="script.artistslideshow" name="Artist Slideshow" version="1.6.6" provider-name="ronie|pkscuot">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -20,9 +20,12 @@
 		<summary lang="de">Downloade Bilder und zusätzliche Informationen des aktuellen abspielenden Künstlers.</summary>
 		<summary lang="el">Κατεβάστε εικόνες και επιπλέον πληροφορίες του τρέχοντος καλλιτέχνη</summary>
 		<summary lang="en">Download images and additional info of the currently playing artist</summary>
+		<summary lang="en_NZ">Download images and additional info of the currently playing artist</summary>
+		<summary lang="en_US">Download images and additional info of the currently playing artist</summary>
 		<summary lang="es">Descarga imágenes e información adicional del artista que esté sonando</summary>
 		<summary lang="es_AR">Bajá imágenes e información adicional sobre el artista </summary>
 		<summary lang="fr">Télécharger les images et les informations additionnelles de l'artiste en cours de lecture</summary>
+		<summary lang="fr_CA">Télécharger des images et des infos additionnelles sur l'artiste écouté</summary>
 		<summary lang="gl">Descarga imaxes e info. adicional do artista que está a soar</summary>
 		<summary lang="he">הורד תמונות ומידע נוסף על האמן המושמע כעת</summary>
 		<summary lang="hr">Preuzimite slike i dodatne informacije o trenutno reproduciranom izvođaču</summary>
@@ -32,7 +35,7 @@
 		<summary lang="ko">현재 재생중인 아티스트의 이미지와 추가 정보 다운로드</summary>
 		<summary lang="nl">Downloaden van afbeeldingen en extra informatie van te horen artiest</summary>
 		<summary lang="no">Last ned bilder og ytterligere informasjon om artisten som spilles av</summary>
-		<summary lang="pl">Pobieraj zdjęcia i dodatkowe informacje o aktualnie odtwarzanym artyście</summary>
+		<summary lang="pl">Pobieraj obrazy i dodatkowe informacje o aktualnie odtwarzanym wykonawcy</summary>
 		<summary lang="pt">Transferir imagens e info adicional do artista em reprodução agora</summary>
 		<summary lang="pt_BR">Transferência de imagens e informações adicionais de artistas que estejam sendo reproduzidos</summary>
 		<summary lang="ru">Загрузить фото и дополнительную информацию об воспроизводимом исполнителе</summary>
@@ -46,16 +49,22 @@
 		<description lang="de">Addon um Bilder und zusätzliche Informationen von fanart.tv, theaudiodb.com und htbackdrops.org zum aktuell gespielten Künstler herunterzuladen. Diese Bilder können zusammen mit den lokalen Künstlerbildern und Infos vom Skin genutzt werden, um eine Slideshow für den aktuell angehörten Künstler zu erstellen.</description>
 		<description lang="el">Πρόσθετο για τη λήψη εικόνων και επιπλέον πληροφοριών από το fanart.tv, το theaudiodb.com, και το htbackdrops.com για τον τρέχοντα καλλιτέχνη. Οι εικόνες, μαζί με τοπικές εικόνες του καλλιτέχνη καθώς και πληροφορίες, μπορούν να χρησιμοποιηθούν από το κέλυφος για τη δημιουργία παρουσιάσεων διαφανειών του καλλιτέχνη η μουσική του οποίου ακούγεται.</description>
 		<description lang="en">Addon to download images and additional information from fanart.tv, theaudiodb.com, and htbackdrops.org of the currently playing artist. The images, along with local artists' images, and info can be used by the skin to create a slideshow for the artist being listened to.</description>
+		<description lang="en_NZ">Addon to download images and additional information from fanart.tv, theaudiodb.com, and htbackdrops.org of the currently playing artist. The images, along with local artists' images, and info can be used by the skin to create a slideshow for the artist being listened to.</description>
+		<description lang="en_US">Addon to download images and additional information from fanart.tv, theaudiodb.com, and htbackdrops.org of the currently playing artist. The images, along with local artists' images, and info can be used by the skin to create a slideshow for the artist being listened to.</description>
 		<description lang="es">Addon para descargar imágenes e información adicional de fanart.tv, theaudiodb.com y htbackdrops.org del artista que se está reproduciendo. Las imágenes, junto con imágenes de artistas locales, y la información puede ser utilizada por la piel para crear una presentación de diapositivas para el artista que se está escuchando.</description>
+		<description lang="fr_CA">Addiciel pour télécharger des images et des informations additionnelles sur fanart.tv, theaudiodb.com et htbackdrops.org de l'artiste en cours d'écoute. Les images, ainsi que les images locales de l'artiste, et les infos peuvent être utilisées par l'habillage pour créer un diaporama pour l'artiste en cours d'écoute.</description>
 		<description lang="gl">Complemento para descargar imaxes e información adicional de fanart.tv e theaudiodb.com do artista que está a soar. Estas imaxes, xunto cas do artista gardadas en local e a información pódeas usar o tema para crear unha presentación. </description>
 		<description lang="he">הרחבה להורדת תמונות ומידע נוסף על האמן המושמע כעת מ-fanart.tv, theaudiodb.com ו-htbackdrops.org. התמונות, בנוסף לתמונות אמנים מקומיות והמידע על אמן יכולים לשמש את המעטפת ליצירת מצגת עבור האמן המושמע כעת.</description>
+		<description lang="hr">Dodatak za preuzimanje slika i dodatnih informacije trenutno reproduciranog izvođača s fanart.tv, theaudiodb.com i theaudiodb.com. Slike, zajedno s lokalnim slikama izvođača i informacijama mogu se koristiti s presvlakom za stvaranje slikovne prezentacije izvođača koji se sluša.</description>
 		<description lang="hu">A Kiegészítő letölt képeket és infromációkat a fanart.tv, theaudiodb.com, és htbackdrops.org oldalakról az éppen hallgatott előadóhoz. A képek a helyben tárolt képekkel együtt felhasználhatóak a Felszín által diavetítéshez.</description>
 		<description lang="it">Addon per scaricare immagini ed informazioni aggiuntive da Last.FM, theaudiodb.com e htbackdrops sull'artista attualmente in esecuzione. Le immagini possono essere usate dallo skin, insieme a quelle locali, per creare una presentazione  per l'artista che si sta ascoltando.</description>
 		<description lang="ko">현재 재생중인 아티스트의 이미지와 추가정보를 fanart.tv 와 theaudiodb.com 에서 다운로드합니다. 다운로드한 이미지와 정보는 로컬 이미지와 함께 현재 재생중인 음악의 아티스트 슬라이드쇼에 사용할 수 있습니다.</description>
 		<description lang="nl">Add-on om afbeeldingen en bijkomende informatie van Fanart.tv, theaudiodb.com en htbackdrops.org van de te horen artiest binnen te halen. de afbeeldingen, net als de lokaal aanwezige artiest-afbeeldingen en -info kunnen gebruikt worden door de skin om een diashow te tonen van de artiest di nu beluisterd wordt.</description>
-		<description lang="pl">Wtyczka pobiera obrazy i dodatkowe informacje z fanart.tv, theaudiodb.com oraz htbackdrops.org o aktualnie odtwarzanym wykonawcy. Ilustracje, wraz z obrazami i informacjami o artystach, mogą być wykorzystywane przez skórę do tworzenia pokazu slajdów dla artysty, którego aktualnie słuchasz.</description>
+		<description lang="no">Tillegg for å laste ned bilder og ytterligere informasjon fra fanart.tv, theaudiodb.com og htbackdrops.org for artisten som spilles av for øyeblikket. Bildene, sammen med lokale artistbilder og info, kan bli brukt av skallet til å lage en lysbildefremvisning for artisten som blir lyttet til for øyeblikket.</description>
+		<description lang="pl">Wtyczka pobiera obrazy i dodatkowe informacje z fanart.tv, theaudiodb.com oraz htbackdrops.org o aktualnie odtwarzanym wykonawcy. Obrazami wraz z informacjami o wykonawcach, mogą być wykorzystywane przez skórę do tworzenia pokazu slajdów dla artysty, którego aktualnie słuchasz.</description>
 		<description lang="pt">Um add-on para transferir imagens e informação adicional do artista em reprodução no momento, a partir de fanart.tv, theaudiodb.com, e htbackdrops.org. As imagens e a informação, assim como as imagens locais dos artistas, podem ser usadas pelo tema para criar uma apresentação de slides do artista em escuta no momento.</description>
 		<description lang="pt_BR">Addon para download de imagens e informações adicionais do artista que está sendo reproduzido provido por fanart.tv, theaudiodb e htbackdrops.org.  Tais dados e imagens serão usados pelas skins para criarem um slideshow dos artistas quando estivermos escutando-os.</description>
+		<description lang="ru">Дополнение для загрузки изображений и дополнительной информации о воспроизводимом исполнителе с ресурсов fanart.tv, theaudiodb.com and htbackdrops.org. Загруженные изображения и доп. информация, наравне с локальными, могут быть использованы для создания слайд-шоу во время прослушивания композиций.</description>
 		<description lang="sl">Dodatek za prenos slik in dodatnih informacij  iz fanart.tv, theaudiodb.com, in htbackdrops.org za trenutno predvajanega izvajalca. Slike, skupaj z lokalnimi slikami izvajalcev ter informacije, se lahko uporabljajo s preobleko za ustvarjanje diaprojekcije slik izvajalca, ki ga trenutno poslušate.</description>
 		<description lang="sv">Tillägg för att ladda ner bilder och tilläggsinformation från fanart.tv, theaudiodb.com och htbackdrops.org om artisten som spelas för tillfället. Bilderna, tillsammans med lokala artistbilder och information, kan användas av skinnet för att skapa ett bildspel av artisten man lyssnar på.</description>
 		<description lang="zh">从fanart.tv、theaudiodb.com和htbackdrops.org下载当前播放艺人的图片和附加信息的插件。这此图片可以和本地艺人图片及信息一起，被皮肤用来创建正收听的艺人的幻灯片。</description>
@@ -69,7 +78,7 @@
 	</extension>
 </addon>
 
-<addon id="script.artistslideshow-helper" name="Artist Slideshow Helper" version="0.3.4~beta2" provider-name="pkscuot">
+<addon id="script.artistslideshow-helper" name="Artist Slideshow Helper" version="0.3.4" provider-name="pkscuot">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -82,18 +91,33 @@
 		<summary lang="de">Hilft bei der Verwaltung von Interpreten-, Hintergrund- und Cache-Bilder</summary>
 		<summary lang="el">Βοηθός Διαχείρισης Αποθηκευμένων Εικόνων Καλλιτέχνη</summary>
 		<summary lang="en">Help manage Artist Slideshow Cache Images</summary>
+		<summary lang="en_NZ">Help manage Artist Slideshow Cache Images</summary>
+		<summary lang="en_US">Help manage Artist Slideshow Cache Images</summary>
 		<summary lang="es">Ayudar a controlar cache de imágenes de presentación de artistas</summary>
-		<summary lang="fr_CA">Aide à gérer la cache des images du diaporama des artistes</summary>
+		<summary lang="fr_CA">Aide à gérer lles images du cache du diaporama des artistes</summary>
+		<summary lang="gl">Axudar a xestionar a Caché de Imaxes na presentación deslizante de Artistas</summary>
+		<summary lang="hu">Művész képek gyorsítótárazásának menedzselése</summary>
+		<summary lang="is">Hjálpar við að halda utan um myndir í biðminni fyrir skyggnusýningar listamanna</summary>
+		<summary lang="it">Aiuta la gestione della cache immagini artista</summary>
 		<summary lang="ko">Artist Slideshow 캐시 이미지 관리 도우미</summary>
+		<summary lang="lt">Padeda tvarkyti atlikėjų skaidrių demonstracijos talpyklos paveikslėlius</summary>
 		<summary lang="nl">Helpt bij het beheren van artiesten diashow Cache afbeeldingen</summary>
-		<summary lang="pl">Pomaga zarządzać pokazem slajdów artysty pamięci podręcznej</summary>
+		<summary lang="pl">Pomaga zarządzać, pokazem slajdów artysty, pamięci podręcznej</summary>
 		<summary lang="pt">Ajuda a gerir as imagens de cache de Artist Slideshow</summary>
 		<summary lang="pt_BR">Ajuda a gerenciar Imagens do cache de artistas do script Artist Slideshow</summary>
 		<summary lang="sv">Hantera cachade bilder för artistbildspel</summary>
+		<summary lang="zh">帮助管理个歌手幻灯片缓存图像</summary>
 		<description lang="el">Το Πρόσθετο Artist Slideshow Helper παρέχει μια λίστα ονομάτων καλλιτεχνών συνδεδεμένων με τον αντίστοιχο φάκελο hash στο φάκελο εικόνων του Artist Slideshow, προκειμένου να διευκολύνει λίγο τη διαχείρισή τους. Σας επιτρέπει, επίσης, να μεταφέρετε εικόνες εκτός του φακέλου προσωρινής αποθήκευσης, σε κάποιον άλλο τοπικό φάκελο.</description>
 		<description lang="en">Artist Slideshow Helper provides a list artist names matched to their hash directory in your Artist Slideshow image directory to make things a little easier to manage.  It also allows you to migrate images out of the cache directory into a local directory structure.</description>
+		<description lang="en_US">Artist Slideshow Helper provides a list artist names matched to their hash directory in your Artist Slideshow image directory to make things a little easier to manage.  It also allows you to migrate images out of the cache directory into a local directory structure.</description>
 		<description lang="es">Artist Slideshow Helper proporciona una lista de nombres de los artistas que coinciden con su carpeta de imágenes de presentación del artista para hacer las cosas un poco más fáciles de manejar. También le permite migrar las imágenes fuera del directorio de caché en una estructura de directorio local.</description>
-		<description lang="fr_CA">Artist Slideshow Helper fournit une liste des noms d'artistes jumelé à leur répertoire de hachage dans votre répertoire d'images du diaporama des artistes pour rendre les choses un peu plus facile à gérer. Il vous permet également de migrer des images sur le répertoire de cache dans une structure de répertoire local.</description>
+		<description lang="fr_CA">L'assistant du diaporama des artistes fournit une liste des noms d'artistes jumelé à leur répertoire de hachage dans votre répertoire d'images du diaporama des artistes pour rendre les choses un peu plus facile à gérer. Il vous permet également de migrer des images sur le répertoire de cache dans une structure de répertoire local.</description>
+		<description lang="gl">O Asistente de Diapositivas de Artistas proporciónalle unha listaxe de nomes de artistas ligada ao hash dos seus cartafoles no cartafol das imaxes de artistas para facer as cousas algo máis doadas. Permítelle tamén migrar as imaxes dende o cartafol da caché a unha estrutura de cartafol local.</description>
+		<description lang="hu">Művész Diavetítés Segítő biztosítja a művészek neveinek a listáját összekapcsolva a  Művész Diavetítés  kép könyvtárral hogy  egyszerűbb legyen kezelni.  Lehetővé teszi hogy képeket migráljon a gyorsítótár könyvtárból egy helyi könyvtárstruktúrába.</description>
+		<description lang="is">Artist Slideshow Helper gefur upp lista af listamannanöfnum samtengdum við hash skráasafn í Artist Slideshow myndasafni þínu til að auðvelda aðeins utanumhald.  Það leyfir þér líka að flytja út myndir úr skráasafni biðminnis yfir í nærtækt skráasafn þitt.</description>
+		<description lang="it">Artist Slideshow Hlper provvede un'accoppiamento tra il nome di un artista in lista con la sua cartella immagini artista per rendere le cose un po' più semplici da gestire. Consente inoltre di migrare le immagini fuori dalla directory della cache verso una cartella locale</description>
+		<description lang="ko">Artist Slideshow의 이미지가 저장된 캐시 디렉터리에서 해시값과 일치하는 아티스트를 목록화하여 관리상의 편의를 제공합니다. 또 캐시 디텍터리의 이미지를 사용자 로컬 디렉터리로 마이그레이션 해 줍니다.</description>
+		<description lang="lt">Artist Slideshow Helper pateikia atlikėjų vardų sąrašą sutapdintą su jų maišos katalogu Artist Slideshow atvaizdų kataloge, kad būtų lengviau tvarkyti. Jis taip pat leidžia migruoti atvaizdus iš talpyklos katalogo į vietinio katalogo struktūrą.</description>
 		<description lang="nl">Artiesten divavoorstellingshelper  Biet een lijst van artiestennamen aan wat overeenkomt naar hun hashmap, dit in jouw artiesten diavoorstelling afbeeldingen map zodat het iets gemakkelijker is te beheren. het geeft je ook de mogelijkheid afbeeldingen te verplaatsen uit de cache map in een lokale map structuur.</description>
 		<description lang="pl">Artist Slideshow Helper zawiera listę hash nazw wykonawców dopasowaną do katalogów pokazu slajdów artysty, co pozwala łatwiej zarządzać obrazami. Pozwala również, przenosić zdjęcia z katalogu pamięci podręcznej do lokalnej struktury katalogów.</description>
 		<description lang="pt">O Artist Slideshow Helper exibe uma lista de nomes de artistas correspondentes aos seus valores hash na pasta de imagens Artist Slideshow, tornando tudo mais fácil de gerir. Também permite a exportação de imagens da pasta de cache para uma estrutura de pastas local.</description>
@@ -109,7 +133,7 @@
 	</extension>
 </addon>
 
-<addon id="script.speedfaninfo" name="SpeedFan Information Display" version="0.5.8~beta2" provider-name="pkscuot">
+<addon id="script.speedfaninfo" name="SpeedFan Information Display" version="0.5.8" provider-name="pkscuot">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -120,15 +144,18 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="af">Vertoon inligting van jou SpeedFan Aantekenings.</summary>
 		<summary lang="be">Display information from your SpeedFan log.</summary>
+		<summary lang="bg">Показва информация от вашия SpeedFan дневник.</summary>
 		<summary lang="ca">Mostra la informació del Registre de Velocitats del Ventilador.</summary>
 		<summary lang="da">Vis oplysninger fra din SpeedFan-log.</summary>
 		<summary lang="de">Zeige Informationen aus deinem SpeedFan Log.</summary>
 		<summary lang="el">Προβολή πληροφοριών από το αρχείο καταγραφής του SpeedFan.</summary>
 		<summary lang="en">Display information from your SpeedFan log.</summary>
+		<summary lang="en_NZ">Display information from your SpeedFan log.</summary>
+		<summary lang="en_US">Display information from your SpeedFan log.</summary>
 		<summary lang="es">Muestra información del log de SpeedFan</summary>
 		<summary lang="es_MX">Muestra información desde tu log de SpeedFan</summary>
 		<summary lang="et">Kuvab info SpeedFan logist.</summary>
-		<summary lang="fr">Afficher les informations a partir du journal de SpeedFan</summary>
+		<summary lang="fr">Afficher les informations à partir du journal de SpeedFan</summary>
 		<summary lang="fr_CA">Afficher l'information du journal pour SpeedFan</summary>
 		<summary lang="gl">Amosar información do teu rexistro de SpeedFan.</summary>
 		<summary lang="he">הצג מידע מיומן הרישום של SpeedFan.</summary>
@@ -146,15 +173,18 @@
 		<summary lang="zh">显示来源于SpeedFan日志的信息</summary>
 		<description lang="af">Ontleed en vertoon inligting van die SpeedFan Aantekenings. Terwyl hierdie plugin werk op enige platform, SpeedFan werk net op Windows, so dit is optimaal gebou vir mense wat XBMC op Windows gebruik. Sien readme.txt vir inligting oor hoe om jou SpeedFan Aantekenings in te stel sodat die prop dit behoorlik kan ontleed nie.</description>
 		<description lang="be">Parses and displays information from the SpeedFan log. While this plugin works on any platform, SpeedFan only works on Windows, so it is optimally built for people using XBMC on Windows. Please see readme.txt for information on how to configure your SpeedFan log so that the plugin can parse it properly.</description>
+		<description lang="bg">Извлича и показва информацията от дневника на SpeedFan. Приставката работи на всички платформи, но самият SpeedFan работи само на Windows, така че приставката е особено полезна за потребителите ползващи XBMC на Windows. Моля, прочетете readme.txt файла за да получите допълнителна информация, за това как как да конфигурирате вашия SpeedFan дневник, така че приставката да може да го анализира правилно</description>
 		<description lang="ca">Analitza i mostra la informació del Registre de Velocitats del Ventilador. Encara que aquest plugin sigui multiplataforma, el Registre de Velocitats del Ventilador només funciona sobre Windows, de manera que està construït òptimament per les persones que utilitzen XBMC sobre Windows. Si et plau, llegeix el fitxer readme.txt per a més informació sobre com configurar el teu Registre de Velocitats del Ventilador i permetre al plugin analitzar els valors correctament.</description>
 		<description lang="da">Henter og viser information fra SpeedFan log'en. Selvom dette plugin virker på alle platforme, fungerer SpeedFan kun i Windows og er dermed skabt for folk, som kører XBMC på Windows. Se venligst readme.txt for oplysninger om, hvordan du opsætter din SpeedFan log, så plugin'et kan læse den korrekt.</description>
 		<description lang="de">Analysiert und zeigt Informationen vom SpeedFan log. Während dieses Plugin auf allen Plattformen funktioniert, läuft SpeedFan nur unter Windows, also ist es optimal für, die, die XBMC unter Windows nutzen. Bitte ließ die readme.txt für Informationen, wie SpeedFan konfiguriert werden muss, dass das Plugin den Log korrekt analysieren kann.</description>
 		<description lang="el">Αναλύει και προβάλλει πληροφορίες από το αρχείο καταγραφής του SpeedFan. Ενώ αυτό το plugin δουλεύει σε οποιαδήποτε πλατφόρμα, το SpeedFan δουλεύει μόνο σε Windows, συνεπώς είναι φτιαγμένο για ανθρώπους που χρησιμοποιούν το XBMC σε Windows. Δείτε το readme.txt για πληροφορίες σχετικά με τη ρύθμιση του αρχείου καταγραφής του SpeedFan ούτως ώστε το plugin να μπορέσει να το αναλύσει σωστά.</description>
 		<description lang="en">Parses and displays information from the SpeedFan log. While this plugin works on any platform, SpeedFan only works on Windows, so it is optimally built for people using XBMC on Windows. Please see readme.txt for information on how to configure your SpeedFan log so that the plugin can parse it properly.</description>
+		<description lang="en_NZ">Parses and displays information from the SpeedFan log. While this plugin works on any platform, SpeedFan only works on Windows, so it is optimally built for people using XBMC on Windows. Please see readme.txt for information on how to configure your SpeedFan log so that the plugin can parse it properly.</description>
+		<description lang="en_US">Parses and displays information from the SpeedFan log. While this plugin works on any platform, SpeedFan only works on Windows, so it is optimally built for people using XBMC on Windows. Please see readme.txt for information on how to configure your SpeedFan log so that the plugin can parse it properly.</description>
 		<description lang="es">Analiza y muestra información del log de SpeedFan. Aunque este complemento funciona en cualquier plataforma, Speedfan sólo funciona en Windows, por lo que está optimizado para el público que utiliza XBMC en Windows. Por favor, lea el fichero readme.txt para obtener información de cómo configurar el log de SpeedFan, de forma que el complemento la interprete correctamente.</description>
 		<description lang="es_MX">Parsea y muestra información desde el log de SpeedFan. Mientras este plugin funciona en cualquier plataforma, SpeedFan funciona solamente en Windows, así que está construido de manera óptima para personas que usan XBMC en Windows. Para información en como configurar el log de SpeedFan para que el plugin pueda parsearlo de manera adecuada, revisar readme.txt.</description>
 		<description lang="et">Kogub ja kuvab info SpeedFan logist. Kuigi plugin töötab kõigil platvormidel, siis SpeedFan töötab vaid Windowsis, nii et vajalik on ta vaid neile, kes kasutavad XBMC-d Windows platvormil. SpeedFan logi seadistamine nii, et seda plugin suudaks veavabalt töödelda, on kirjas failis readme.txt.</description>
-		<description lang="fr">Analyse et affiche les informations a partir du journal de SpeedFan. Même si ce module fonctionne sur toutes les plateformes, SpeedFan ne fonctionne que sous Windows, il est donc optimisé pour les utilisateurs de XBMC sous Windows. Merci de lire le fichier readme.txt pour savoir comment configurer votre journal SpeedFan afin que le module puisse l'analyser correctement.</description>
+		<description lang="fr">Analyse et affiche les informations à partir du journal de SpeedFan. Même si ce module fonctionne sur toutes les plateformes, SpeedFan ne fonctionne que sous Windows, il est donc optimisé pour les utilisateurs de XBMC sous Windows. Merci de lire le fichier readme.txt pour savoir comment configurer votre journal SpeedFan afin que le module puisse l'analyser correctement.</description>
 		<description lang="fr_CA">Analyse et affiche les informations du journal SpeedFan. Bien que cette extension fonctionne sur n'importe quelle plateforme, SpeedFan ne fonctionne que sur Windows, il est parfaitement construit pour les personnes utilisant XBMC sur Windows. S'il vous plaît voir le fichier readme.txt pour plus d'informations sur la façon de configurer votre journal SpeedFan pour que le module d'extension puisse l'analyser correctement.</description>
 		<description lang="gl">Ananilza e amosa información do rexistro de SpeedFan. Mentres que este engadido funciona en calquera plataforma, SpeedFan só funciona baixo Windows polo que está optimizado para o XBMC de Windows. Por favor lea readme.txt para obter información de como configurar o rexistro de SpeedFan para que o engadido o poda analizar dunha forma axeitada.</description>
 		<description lang="he">מנתחת ומציגה מידע מיומן הרישום של SpeedFan. אמנם הרחבה זו תרוץ על כל פלטפורמה אך SpeedFan רצה רק על מערכת חלונות, לכן הרחבה זו מתאימה במיוחד למשתמשי XBMC תחת חלונות. אנא ראה readme.txt למידע בנושא הגדרת יומן הרישום של SpeedFan כך שההרחבה תנתח את המידע נכונה.</description>
@@ -163,7 +193,7 @@
 		<description lang="id">Membaca dan menampilkan informasi dari log SpeedFan. Meskipun plugin ini bisa berjalan di platform manapun, SpeedFan hanya dapat berjalan di Windows, jadi plugin ini dibangun seara optimal khusus untuk mereka yang menggunakan XBMC di WIndows. Silakan merujuk ke readme.txt untuk informasi mengenai bagaimana cara mengkonfigurasi log SpeedFan Anda supaya plugin bisa membacanya dengan baik.</description>
 		<description lang="it">Analizza e mostra informazioni dal log. di SpeedFan. Mentre questo plug-in funziona su ogni piattaforma, SpeedFan funziona solo su Windows, quindi ottimizzato per persone che usano XBMC su Windows. Leggi il file readme.txt per le informazioni su come configurare il tuo SpeedFan log. così che il plug-in lo potrà analizzare correttamente.</description>
 		<description lang="nl">Verzameld en laat informatie zien van het SpeedFan log. Deze plugin werkt op elk platform alleen werkt SpeedFan enkel op Windows en is daarom geoptimaliseerd voor mensen die XBMC gebruiken op Windows. Lees alstublieft readme.txt voor informatie hoe je het SpeedFan log in kunt stellen zodat de plugin correct de gegevens verzameld.</description>
-		<description lang="pl">Analizuje i wyświetla informacje z dziennika SpeedFan. Plugin powinien działać na każdej platformie, jednakże SpeedFan optymalnie działa tylko na Windowsie, więc wskazane jest by korzystać z niego tylko na tej platformie. Proszę zapoznaj się z readme.txt gdzie podane są informacje jak skonfigurować dziennik SpeedFan tak aby wtyczka mogła analizować prawidłowo.</description>
+		<description lang="pl">Analizuje i wyświetla informacje z dziennika SpeedFan. Wtyczka powinna działać na każdej platformie, jednakże SpeedFan optymalnie działa w systemie Windows, więc wskazane jest korzystanie z niej tylko na tej platformie. Proszę zapoznaj się z treścią pliku readme.txt, gdzie podane są informacje, jak skonfigurować dziennik SpeedFan tak, aby wtyczka mogła analizować prawidłowo.</description>
 		<description lang="pt">Recolhe e exibe informação do log do Speedfan. Apesar deste plugin funcionar em qualquer plataforma, o Speedfan apenas funciona no Windows. Por favor verifique o readme.txt para obter informação sobre como configurar o seu log do Speedfan, para o plugin poder analisá-lo correctamente.</description>
 		<description lang="pt_BR">Analisa e apresenta informações do registro SpeedFan. Embora este plugin funcione em qualquer plataforma, SpeedFan só funciona no Windows, então é optimizado para as pessoas que utilizam o XBMC no Windows. Por favor, veja o arquivo readme.txt para obter informações sobre como configurar o registro SpeedFan para que o plugin possa analisá-lo corretamente.</description>
 		<description lang="ru">Извлекает и отображает информацию из журнала SpeedFan. Данный плагин работает на всех платформах, но сам SpeedFan есть только для Windows, поэтому данный плагин прежде всего пригодится пользователям Windows. Пожалуйста, ознакомьтесь с файлом readme.txt для более подробной информации о конфигурации SpeedFan и настройках лога, чтобы данный плагин смог правильно его распарсить.</description>
@@ -179,6 +209,5 @@
 		<source>https://github.com/pkscout/script.speedfaninfo</source>
 	</extension>
 </addon>
-
 
 </addons>
