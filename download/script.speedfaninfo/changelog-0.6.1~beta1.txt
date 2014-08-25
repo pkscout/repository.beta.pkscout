@@ -1,4 +1,7 @@
-v.0.6.0~beta1
+v.0.6.1~beta1
+- if rpm is 0, then SFID only shows percentage
+
+v.0.6.0
 - fix for crash when using smb path
 
 v.0.5.9
