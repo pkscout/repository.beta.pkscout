@@ -4,7 +4,7 @@
 <addon id="script.artistslideshow" name="Artist Slideshow" version="1.8.0" provider-name="pkscout|ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
-		<import addon="xbmc.addon" version="14.0.0"/>
+		<import addon="xbmc.addon" version="13.0.0"/>
 		<import addon="script.module.requests" version="2.3.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
 	</requires>
@@ -81,7 +81,7 @@
 <addon id="script.artistslideshow-helper" name="Artist Slideshow Helper" version="0.4.0" provider-name="pkscout">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
-		<import addon="xbmc.addon" version="14.0.0"/>
+		<import addon="xbmc.addon" version="13.0.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
 	</requires>
 	<extension point="xbmc.python.script" library="default.py">
@@ -136,7 +136,7 @@
 <addon id="script.speedfaninfo" name="SpeedFan Information Display" version="0.7.0" provider-name="pkscout">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
-		<import addon="xbmc.addon" version="14.0.0"/>
+		<import addon="xbmc.addon" version="13.0.0"/>
 	</requires>
 	<extension point="xbmc.python.script" library="default.py">
 		<provides>executable</provides>
