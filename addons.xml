@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="script.artistslideshow" name="Artist Slideshow" version="1.8.2" provider-name="pkscout|ronie">
+<addon id="script.artistslideshow" name="Artist Slideshow" version="1.8.3~beta1" provider-name="pkscout|ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="xbmc.addon" version="14.0.0"/>
