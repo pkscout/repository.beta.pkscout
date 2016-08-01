@@ -1,10 +1,5 @@
-v.0.4.3~beta3
-- fully artist path now removes all trailing periods
-
-v.0.4.3~beta2
+v.0.4.3
 - added logic from AS for fixing illegal characters in artist names
-
-v.0.4.3~beta1
 - additional debug logging
 
 v.0.4.2
