@@ -1,4 +1,5 @@
-v.2.0.3~beta1
+v.2.0.3
+- removed support for htbackdrops.org (API access no longer available)
 - fix for crash when theaudiodb.com doesn't respond with valid JSON
 
 v.2.0.2
