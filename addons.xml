@@ -79,7 +79,7 @@
 	</extension>
 </addon>
 
-<addon id="script.artistslideshow-helper" name="Artist Slideshow Helper" version="0.4.3" provider-name="pkscout">
+<addon id="script.artistslideshow-helper" name="Artist Slideshow Helper" version="0.4.4~beta1" provider-name="pkscout">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="xbmc.addon" version="14.0.0"/>
@@ -89,6 +89,8 @@
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
+		<news>v.0.4.4~beta1
+			  - fix for crash when image migration is disabled</news>
 		<summary lang="de">Hilft bei der Verwaltung von Interpreten-, Hintergrund- und Cache-Bilder</summary>
 		<summary lang="el">Βοηθός Διαχείρισης Αποθηκευμένων Εικόνων Καλλιτέχνη</summary>
 		<summary lang="en">Help manage Artist Slideshow Cache Images</summary>
