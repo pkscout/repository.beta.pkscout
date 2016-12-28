@@ -139,7 +139,7 @@
 	</extension>
 </addon>
 
-<addon id="script.speedfaninfo" name="SpeedFan Information Display" version="0.7.3" provider-name="pkscout">
+<addon id="script.speedfaninfo" name="SpeedFan Information Display" version="0.7.4" provider-name="pkscout">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="xbmc.addon" version="14.0.0"/>
