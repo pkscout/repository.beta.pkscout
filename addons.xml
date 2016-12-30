@@ -149,7 +149,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<news>0.7.5~beta1
-		- added option to run external script to generate log file
+		- added option to run external script to generate log files
         - added 'Other' option to sensor display
         - added advanced setting for line read size</news>
 		<summary lang="af">Vertoon inligting van jou SpeedFan Aantekenings.</summary>
