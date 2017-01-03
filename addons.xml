@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="script.artistslideshow" name="Artist Slideshow" version="2.0.5~beta2" provider-name="pkscout,ronie">
+<addon id="script.artistslideshow" name="Artist Slideshow" version="2.0.5" provider-name="pkscout,ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="xbmc.addon" version="14.0.0"/>
@@ -80,7 +80,7 @@
 	</extension>
 </addon>
 
-<addon id="script.artistslideshow-helper" name="Artist Slideshow Helper" version="0.4.4~beta1" provider-name="pkscout">
+<addon id="script.artistslideshow-helper" name="Artist Slideshow Helper" version="0.4.4" provider-name="pkscout">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="xbmc.addon" version="14.0.0"/>
@@ -90,7 +90,7 @@
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<news>v.0.4.4~beta1
+		<news>v.0.4.4
 			  - fix for crash when image migration is disabled</news>
 		<summary lang="de">Hilft bei der Verwaltung von Interpreten-, Hintergrund- und Cache-Bilder</summary>
 		<summary lang="el">Βοηθός Διαχείρισης Αποθηκευμένων Εικόνων Καλλιτέχνη</summary>
@@ -137,7 +137,7 @@
 	</extension>
 </addon>
 
-<addon id="script.speedfaninfo" name="SpeedFan Information Display" version="0.7.5~beta2" provider-name="pkscout">
+<addon id="script.speedfaninfo" name="SpeedFan Information Display" version="0.7.5" provider-name="pkscout">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="xbmc.addon" version="14.0.0"/>
@@ -146,7 +146,7 @@
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<news>0.7.5~beta1
+		<news>0.7.5
 		- added option to run external script to generate log files
         - added 'Other' option to sensor display
         - added advanced setting for line read size</news>
