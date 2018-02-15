@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="script.artistslideshow" name="Artist Slideshow" version="2.1.1~beta2" provider-name="pkscout,ronie">
+<addon id="script.artistslideshow" name="Artist Slideshow" version="2.1.1~beta4" provider-name="pkscout,ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="xbmc.addon" version="14.0.0"/>
@@ -13,6 +13,12 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<news>
+v.2.1.1~beta4
+- change to fileops common module to not use subprocess (unavailable in Windows Store version of Kodi)
+
+v.2.1.1~beta3
+- rearranged settings again
+
 v.2.1.1~beta2
 - change to cache timing including decreased cache time if donating to image services
 - added option to download artist thumb from theaudiodb.com
