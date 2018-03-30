@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="script.artistslideshow" name="Artist Slideshow" version="2.1.1" provider-name="pkscout,ronie">
+<addon id="script.artistslideshow" name="Artist Slideshow" version="2.1.2~beta1" provider-name="pkscout,ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="xbmc.addon" version="14.0.0"/>
@@ -13,13 +13,8 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<news>
-v.2.1.1
-- added option to download artist thumb from theaudiodb.com
-- added option to store service information files in local artist path
-- change to cache timing including decreased cache time if donating to image services
-- rearranged settings
-- fixes to exception handling syntax to be consistent with Python3
-- fixes for compatibility with Windows Store version of Kodi
+v.2.1.2~beta1
+- fix for crash when trying to trim cache folder
 		</news>
 		<summary lang="ar">حمل المزيد من الصور والمعلومات عن الفنان الذى يُغنِى حالياً</summary>
 		<summary lang="be">Download images and additional info of the currently playing artist</summary>
@@ -143,7 +138,7 @@ v.2.1.1
 	</extension>
 </addon>
 
-<addon id="script.speedfaninfo" name="SpeedFan Information Display" version="0.7.5" provider-name="pkscout">
+<addon id="script.speedfaninfo" name="SpeedFan Information Display" version="0.7.8~beta1" provider-name="pkscout">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="xbmc.addon" version="14.0.0"/>
@@ -152,10 +147,10 @@ v.2.1.1
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<news>0.7.5
-		- added option to run external script to generate log files
-        - added 'Other' option to sensor display
-        - added advanced setting for line read size</news>
+		<news>
+v.0.7.8~beta1
+- changes for better compatibility when running script on non-Windows machine
+		</news>
 		<summary lang="af">Vertoon inligting van jou SpeedFan Aantekenings.</summary>
 		<summary lang="be">Display information from your SpeedFan log.</summary>
 		<summary lang="bg">Показва информация от вашия SpeedFan дневник.</summary>
@@ -224,7 +219,7 @@ v.2.1.1
 	</extension>
 </addon>
 
-<addon id="script.weatherstation.lite" name="Weather Station Lite" version="1.0.0" provider-name="pkscout">
+<addon id="script.weatherstation.lite" name="Weather Station Lite" version="1.0.2~beta1" provider-name="pkscout">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="xbmc.addon" version="14.0.0"/>
@@ -233,7 +228,10 @@ v.2.1.1
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<news></news>
+		<news>
+v.1.0.2~beta1
+-updated common libraries		
+		</news>
 		<description lang="en">Reads weather data from external sources and adds that information to the weather window properties.</description>
 		<description lang="en_NZ">Reads weather data from from external sources and adds that information to the weather window properties.</description>
 		<description lang="en_US">Reads weather data from from external sources and adds that information to the weather window properties.</description>
