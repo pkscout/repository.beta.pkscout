@@ -140,7 +140,7 @@ v.2.1.2~beta1
 	</extension>
 </addon>
 
-<addon id="script.speedfaninfo" name="SpeedFan Information Display" version="0.7.8~beta2" provider-name="pkscout">
+<addon id="script.speedfaninfo" name="SpeedFan Information Display" version="0.7.8" provider-name="pkscout">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="xbmc.addon" version="14.0.0"/>
@@ -150,10 +150,8 @@ v.2.1.2~beta1
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<news>
-v.0.7.8~beta2
+v.0.7.8
 - fix for common library
-
-v.0.7.8~beta1
 - changes for better compatibility when running script on non-Windows machine
 		</news>
 		<summary lang="af">Vertoon inligting van jou SpeedFan Aantekenings.</summary>
