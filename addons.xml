@@ -196,7 +196,7 @@ v.1.1.101~beta1
 	</extension>
 </addon>
 
-<addon id="plugin.whereareyou" name="Where Are You" provider-name="pkscout" version="0.2.100">
+<addon id="plugin.whereareyou" name="Where Are You" provider-name="pkscout" version="0.2.100~beta1">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.kodi-six" version="0.0.3" />
