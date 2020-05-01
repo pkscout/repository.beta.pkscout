@@ -88,6 +88,34 @@ v.3.2.104~beta1
 	</extension>
 </addon>
 
+<addon id="script.audio.profiles" name="Audio Profiles" version="1.4.103~beta2" provider-name="pkscout, notoco, Regss">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.kodi-six" version="0.1.3.1" />
+    </requires>
+    <extension point="xbmc.python.script" library="default.py"/>
+    <extension point="xbmc.service" library="service.py" start="login"/>
+    <extension point="xbmc.addon.metadata">
+        <news>
+v.1.4.103~beta2
+- fix for GUI profile auto loading during playback if you skip to next item
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+        <summary lang="en">Save audio profile and easily switch between them.</summary>
+        <summary lang="pl">Zapisuje profile ustawień audio i łatwo przełącza między nimi.</summary>
+        <summary lang="it">Salva il profilo audio e cambia facilmente da uno all'altro.</summary>
+        <description lang="en">Save audio profile and easily switch between them.</description>
+        <description lang="pl">Zapisuje profile ustawień audio i łatwo przełącza między nimi.</description>
+        <description lang="it">Salva il profilo audio e cambia facilmente tra di loro.</description>
+        <platform>all</platform>
+        <license>GPL-3.0-only</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=353852</forum>
+        <source>https://github.com/pkscout/script.audio.profiles</source>
+    </extension>
+</addon>
+
 <addon id="script.speedfaninfo" name="SpeedFan Information Display" version="1.1.102~beta1" provider-name="pkscout">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
@@ -167,34 +195,6 @@ v.1.1.102~beta1
 		<email>speedfaninfo.xbmc@gmail.com</email>
 		<source>https://github.com/pkscout/script.speedfaninfo</source>
 	</extension>
-</addon>
-
-<addon id="script.audio.profiles" name="Audio Profiles" version="1.4.103~beta1" provider-name="pkscout, notoco, Regss">
-    <requires>
-        <import addon="xbmc.python" version="3.0.0" />
-        <import addon="script.module.kodi-six" version="0.1.3.1" />
-    </requires>
-    <extension point="xbmc.python.script" library="default.py"/>
-    <extension point="xbmc.service" library="service.py" start="login"/>
-    <extension point="xbmc.addon.metadata">
-        <news>
-v.1.4.103~beta1
-- fix for switch dialog box not switching profiles during playback
-        </news>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-        <summary lang="en">Save audio profile and easily switch between them.</summary>
-        <summary lang="pl">Zapisuje profile ustawień audio i łatwo przełącza między nimi.</summary>
-        <summary lang="it">Salva il profilo audio e cambia facilmente da uno all'altro.</summary>
-        <description lang="en">Save audio profile and easily switch between them.</description>
-        <description lang="pl">Zapisuje profile ustawień audio i łatwo przełącza między nimi.</description>
-        <description lang="it">Salva il profilo audio e cambia facilmente tra di loro.</description>
-        <platform>all</platform>
-        <license>GPL-3.0-only</license>
-        <forum>https://forum.kodi.tv/showthread.php?tid=353852</forum>
-        <source>https://github.com/pkscout/script.audio.profiles</source>
-    </extension>
 </addon>
 
 <addon id="plugin.whereareyou" name="Where Are You" provider-name="pkscout" version="0.2.102~beta1">
