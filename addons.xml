@@ -89,7 +89,7 @@ v.3.2.4~beta1
 	</extension>
 </addon>
 
-<addon id="script.audio.profiles" name="Audio Profiles" version="2.0.0~beta2" provider-name="pkscout, notoco, Regss">
+<addon id="script.audio.profiles" name="Audio Profiles" version="2.0.0~beta3" provider-name="pkscout, notoco, Regss">
     <requires>
 		<import addon="xbmc.python" version="2.26.0" />
 		<import addon="script.module.kodi-six" version="0.0.3" />
@@ -98,11 +98,8 @@ v.3.2.4~beta1
     <extension point="xbmc.service" library="service.py" start="login"/>
     <extension point="xbmc.addon.metadata">
 		<news>
-v.2.0.0~beta2
-- added option for more agressive matching of unknown content to auto_music
-- added skin support for Arctic Horizon, Arctic Zephyr2, and Revolve
-- updated language files
-- updated skin support to make it easier to support new skins
+v.2.0.0~beta3
+- fix for crash if play is stopped while AP is waiting for the stream to become available
 		</news>
         <assets>
             <icon>icon.png</icon>
