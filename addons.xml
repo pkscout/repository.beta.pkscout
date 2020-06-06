@@ -288,32 +288,4 @@ v.0.2.2~beta4
 	</extension>
 </addon>
 
-<addon id="script.weatherstation.lite" name="Weather Station Lite" version="1.1.0~beta1" provider-name="pkscout">
-	<requires>
-		<import addon="xbmc.python" version="2.25.0" />
-		<import addon="xbmc.addon" version="17.0.0" />
-		<import addon="script.module.kodi-six" version="0.0.3" />
-		<import addon="script.module.future" version="0.16.0.4" />
-	</requires>
-	<extension point="xbmc.python.script" library="default.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<news>
-v.1.1.0
-Python 2/3 compatability
-		</news>
-		<description lang="en">Reads weather data from external sources and adds that information to the weather window properties.</description>
-		<description lang="en_NZ">Reads weather data from from external sources and adds that information to the weather window properties.</description>
-		<description lang="en_US">Reads weather data from from external sources and adds that information to the weather window properties.</description>
-		<language></language>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-		<forum></forum>
-		<website></website>
-		<email></email>
-		<source>https://github.com/pkscout/script.weatherstation</source>
-	</extension>
-</addon>
-
 </addons>
