@@ -264,7 +264,7 @@ v.1.1.102~beta1
 	</extension>
 </addon>
 
-<addon id="plugin.whereareyou" name="Where Are You" provider-name="pkscout" version="0.2.103~beta4">
+<addon id="plugin.whereareyou" name="Where Are You" provider-name="pkscout" version="0.2.102~beta5">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.kodi-six" version="0.0.3" />
@@ -274,8 +274,8 @@ v.1.1.102~beta1
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<news>
-v.0.2.102~beta4
-- fix for looping when activated from home screen
+v.0.2.102~beta5
+- fix for looping dialog box if called from home screen
 		</news>
 		<summary lang="en_GB">Plugin module to display a custom dialog box when playing external media.</summary>
 		<description lang="en_GB">Where Are You is a module for Kodi that accepts a URL from a stream file and then displays a dialog box with the title and message from the stream file URL.  After the dialog is dismissed a black video plays for 2 seconds.  This is basically to do what the media stub file *should* do, which is display a title and a message for a given file, but the media stub only works if you have an optical drive attached to the device running Kodi.
